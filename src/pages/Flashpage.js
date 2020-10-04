@@ -1,9 +1,16 @@
 import React from 'react'
+import FlashCardForm from '../components/FlashCardForm'
+import FlashCard from '../components/FlashCard'
 
 function Flashpage() {
     return (
         <div>
-        This is flashcards page
+            <FlashCardForm />
+            <div>
+                <FlashCard />
+
+            </div>
+        
         </div>
     )
 }
